@@ -11,8 +11,8 @@ const d = new Date()
 var year = d.getFullYear()
 
 //Add eventListener to button
-button.addEventListener("click",altaViata)
-an.addEventListener("mouseover",displayAge)
+button.addEventListener("click", altaViata)
+an.addEventListener("mouseover", displayAge)
 
 function altaViata()
 {
@@ -20,7 +20,7 @@ function altaViata()
 	 prenume.innerHTML = "Locul de munca: Ibiza"
 	 asteptari.innerHTML = "Experiente: <ol><li>internship</li><li>licenta nota 11</li></ol>"
 	 
-	 img.src "images.jpg"
+	 img.src="images.jpg"
 	 body.style.backgroundColor ="blue"
 	 body.style.color = "purple"
 	 
